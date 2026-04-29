@@ -8,13 +8,13 @@ nImages = length(imageFiles);
 
 prompt = "Illumination Sensitivity (start with 0.7) ";
 txt = input(prompt);
-prompt = "EdgeThreshold (Start with 0.49) ";
+prompt = "EdgeThreshold (Start with 0.7) ";
 txt_1 = input(prompt);
-prompt = "Mininum Radius (Start with 6) ";
+prompt = "Mininum Radius (Start with 15) ";
 txt_2 = input(prompt);
 prompt = "Maxumum Radius (Start with 70) ";
 txt_3 = input(prompt);
-prompt = "Scale of Microscope for 1um (Insert your calibration ex: recommended for 100x) ";
+prompt = "Scale of Microscope for 1um (Insert your calibration ex: 23.1 for 100x) ";
 txt_4 = input(prompt);
 
 % Initialize results table
